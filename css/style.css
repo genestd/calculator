@@ -1,0 +1,67 @@
+body{
+  font-family: 'Share Tech Mono';
+  margin-top: 130px;
+  background: rgb(206,220,231); /* Old browsers */ /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(206,220,231,1) 1%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-radial-gradient(center ellipse, rgba(206,220,231,1) 1%,rgba(89,106,114,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(206,220,231,1) 1%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.case{
+  height: 360px;
+  width:240px;
+  max-width: 500px;
+  background-color: #a5a5a5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 4px 6px #888;
+  -webkit-box-shadow: 3px 3px 4px 6px #888;
+  box-shadow:         3px 3px 4px 6px #888;
+}
+
+#screen{
+  height: 80px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: right;
+  margin: 0px;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.button{
+  margin:none;
+  border-width: 0px 1px 1px 0px;
+  background-color: #999999;
+  color: #ffffff;
+  width:60px;;
+  height: 56px;
+  outline: none;
+  font-size: 20px;
+}
+#btnEql{
+  float: right;
+  width: 25%;
+  height: 112px;
+}
+#btnZero{
+  width: 120px;
+}
+#doublerow{
+  float:left;
+  width: 75%;
+}
+#btnC, #btnAC{
+  background-color: #880c30;
+  color: #ffffff;
+}
+#btnPlus, #btnMinus, #btnMult, #btnDiv, #btnEql{
+  background-color: #555555;
+}
