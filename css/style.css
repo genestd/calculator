@@ -19,7 +19,6 @@ body{
 .case{
   height: 360px;
   width:240px;
-  max-width: 500px;
   background-color: #a5a5a5;
   margin-left: auto;
   margin-right: auto;
@@ -32,10 +31,10 @@ body{
 }
 
 .screen{
+  color: #ffffff;
   height: 80px;
   width: 100%;
   background-color: #000000;
-  color: #ffffff;
   text-align: right;
   margin: 0;
   padding-top: 20px;
@@ -44,10 +43,10 @@ body{
 }
 
 .button{
+  color: #ffffff;
   margin:0;
   border-width: 0 1px 1px 0;
   background-color: #999999;
-  color: #ffffff;
   width:60px;;
   height: 56px;
   outline: none;
@@ -67,7 +66,6 @@ body{
 }
 .btnRed{
   background-color: #880c30;
-  color: #ffffff;
 }
 .btnGray{
   background-color: #555555;
