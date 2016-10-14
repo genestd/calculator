@@ -1,3 +1,10 @@
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
 body{
   font-family: 'Share Tech Mono';
   margin-top: 130px;
@@ -6,7 +13,7 @@ body{
   background: -webkit-radial-gradient(center ellipse, rgba(206,220,231,1) 1%,rgba(89,106,114,1) 100%);
   background: radial-gradient(ellipse at center, rgba(206,220,231,1) 1%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+  min-height: 100vh;
 }
 
 .case{
@@ -24,21 +31,21 @@ body{
   box-shadow:         3px 3px 4px 6px #888;
 }
 
-#screen{
+.screen{
   height: 80px;
   width: 100%;
   background-color: #000000;
   color: #ffffff;
   text-align: right;
-  margin: 0px;
+  margin: 0;
   padding-top: 20px;
   padding-right: 10px;
   font-size: 24px;
 }
 
 .button{
-  margin:none;
-  border-width: 0px 1px 1px 0px;
+  margin:0;
+  border-width: 0 1px 1px 0;
   background-color: #999999;
   color: #ffffff;
   width:60px;;
@@ -46,22 +53,22 @@ body{
   outline: none;
   font-size: 20px;
 }
-#btnEql{
+.btnEql{
   float: right;
   width: 25%;
   height: 112px;
 }
-#btnZero{
+.btnZero{
   width: 120px;
 }
-#doublerow{
+.doublerow{
   float:left;
   width: 75%;
 }
-#btnC, #btnAC{
+.btnRed{
   background-color: #880c30;
   color: #ffffff;
 }
-#btnPlus, #btnMinus, #btnMult, #btnDiv, #btnEql{
+.btnGray{
   background-color: #555555;
 }
